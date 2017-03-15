@@ -3,3 +3,4 @@ for i in f:
     print i
 
 f.close()
+print 'i'

@@ -25,7 +25,7 @@ def default():
 option={1:txt,2:csv,3:tsv}
 print "enter the number\n"
 try:
-    num = int(raw_input())
+    num =int(raw_input())
     print type(num)
     option[num]()
 except KeyError:
