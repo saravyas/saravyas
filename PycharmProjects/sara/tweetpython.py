@@ -69,33 +69,9 @@ if __name__ == '__main__':
 
     client = MongoClient('localhost', 27017)
 
-    db = client.test_database
+    db = client.gmx
 
-    collection = db.test_collectionclass StdOutListener(StreamListener):class StdOutListener(StreamListener):
-
-    def on_data(self, data):
-        print data
-        return Trueclass StdOutListener(StreamListener):
-
-    def on_data(self, data):
-        print data
-        return True
-
-    def on_error(self, status):
-        print status
-
-
-    def on_error(self, status):
-        print status
-
-
-    def on_data(self, data):
-        print data
-        return True
-
-    def on_error(self, status):
-        print status
-
+    collection = db.tweet
 
     # This line filter Twitter Streams to capture data by the keywords: 'India'
 
