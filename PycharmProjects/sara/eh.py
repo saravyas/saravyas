@@ -1,6 +1,6 @@
 import sys
 
-print "enter a number"
+print "Enter A Number"
 
 try:
     number = int(raw_input("number"))
@@ -9,7 +9,7 @@ except ValueError:
     print "error"
     sys.exit()
 
-print "you entered number ", number
+print "You Entered Number ", number
 
 
 #need over all error
